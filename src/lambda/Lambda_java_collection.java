@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class lambda_java_collection {
+public class Lambda_java_collection {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("aaa", "abc", "bbb", "ccc");
         Collections.sort(list, new Comparator<String>() {

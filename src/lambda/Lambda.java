@@ -1,6 +1,6 @@
 package lambda;
 
-public class lambda {
+public class Lambda {
     public static void main(String[] args) {
         new Thread(new Runnable() {
             @Override

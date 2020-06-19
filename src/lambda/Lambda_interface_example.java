@@ -1,6 +1,6 @@
 package lambda;
 
-public class lambda_interface_example {
+public class Lambda_interface_example {
     public static void main(String[] args) {
         MyFunction mf = new MyFunction() {
             @Override
