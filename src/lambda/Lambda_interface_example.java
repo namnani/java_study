@@ -19,6 +19,11 @@ public class Lambda_interface_example {
         System.out.println(mf.max(4, 3));
         System.out.println(mf2.max(3, 4));
         System.out.println(mf3.max(3, 4));
+
+        MyFunction mf4 = (MyFunction)((a, b)-> {
+            return 3;
+        });
+        System.out.println((Object)(mf4).toString());
     }
 }
 
