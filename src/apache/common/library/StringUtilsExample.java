@@ -79,7 +79,7 @@ public class StringUtilsExample {
         str = "c++, java, c#, javascript, jQuery";
         // ','를 구분자로 사용하여 분리.
         String[] str2 = StringUtils.split(str, ", ");
-        for(int j = 0; j< str2.length; j++){
+        for (int j = 0; j < str2.length; j++) {
             System.out.println("split str2[" + j + "] : " + str2[j]);
         }
 
