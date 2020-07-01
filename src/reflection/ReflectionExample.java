@@ -10,6 +10,21 @@ public class ReflectionExample {
             for(int i = 0; i<m.length; i++){
                 System.out.println(m[i].toString());
             }
+
+            System.out.println();
+            c = java.util.Stack.class;
+            m = c.getDeclaredMethods();
+            for(Method mi : m) {
+                System.out.println(mi);
+            }
+
+            System.out.println();
+            c = Integer.class;
+            for(Method mi : c.getDeclaredMethods()) {
+                System.out.println(mi);
+            }
+
+
         } catch (Throwable e) {
             System.err.println(e);
         }
