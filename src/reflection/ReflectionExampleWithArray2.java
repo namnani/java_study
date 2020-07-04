@@ -15,5 +15,7 @@ public class ReflectionExampleWithArray2 {
 
         int arrcast[][][] = (int[][][]) arr;
         System.out.println(arrcast[3][5][10]);
+        arrobj = Array.get(arr, 3);
+        System.out.println(((int[][])arrobj)[5][10]);
     }
 }
