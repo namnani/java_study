@@ -18,6 +18,7 @@ public class StreamExample {
 
         /* Stream<String> stream = */
         Stream.of("d2", "a2", "b1", "b3", "c")
+//                .peek(s -> System.out.println("peek: " + s));
                 .filter(s -> {
                     System.out.println("filter: " + s);
                     return true;
